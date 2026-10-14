@@ -149,18 +149,22 @@ gap:10px;
 .hero::before {
   content: "LIGHT UP THE NIGHT!";
   position: absolute;
-  top: 15px;
+  top: 12px;
   left: 0;
   width: 100%;
   text-align: center;
-  font-size: clamp(24px, 6vw, 52px);
-  font-weight: 900;
+  font-size: clamp(25px, 6vw, 60px);
+  font-weight: 1000;
   font-style: italic;
-  color: #ffcb35;
+  letter-spacing: -1px;
+  color: #ffdf35;
+  -webkit-text-stroke: 1px #ff641b;
   text-shadow:
-    0 0 8px #ff641b,
-    0 0 18px #ff26ca,
-    0 0 30px #ff641b;
+    2px 3px 0 #b80037,
+    4px 5px 0 #650028,
+    0 0 12px #ff641b,
+    0 0 25px #ff26ca,
+    0 0 40px #ff26ca;
   z-index: 5;
   pointer-events: none;
 }
